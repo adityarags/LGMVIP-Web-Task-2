@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Playfair+Display:ital,wght@1,600&display=swap');
+.App {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #7fcec5;
+  background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
+  background-size: cover;
+
+}
+
+h1{
+  font-size: 2rem;
+  position: absolute;
+  padding-left:45%;
+  color: white;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+}
+h3{
+  font-size: 1.2rem;
+  font-weight: 350;
+  font-family: 'Playfair Display', serif;
+}
+
+h4{
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: 'Josefin Slab', serif;
+}
+
+.navbar{
+  background: #05233f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1.5rem 7%;
+  top:0; 
+  left: 0; 
+  right: 0;
+  margin-bottom: 10px;
+}
+
+.navbar a{
+  margin:0 1rem;
+  font-size: 1.6rem;
+  color:white;
+}
+
+.navbar a:hover{
+  color:rgb(228, 191, 98);
+  border-bottom: .1rem solid white;
+  cursor: pointer;
+}
+
+.userBoxes{
+  margin:70px 10px;
+  padding-left:20%;
+  min-height: 10vh;
+  width: 20%; 
+  position: relative;
+  float:left;
+  display: flex;
+}
+
+.box{
+  width: 250px;
+  background-color: rgb(175, 219, 240);
+  border-radius: 30px;
+  gap:1.5rem;
+  justify-content: center;
+  padding:2rem;
+  line-height: 0.25rem;
+  border:1px solid #043266;
+}
+
+.box:hover{
+  transform: scale(1.1);
+}
+
+
+.userBoxes img{
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid #071b46;
+  border-radius: 3000px;
+}
+
+
